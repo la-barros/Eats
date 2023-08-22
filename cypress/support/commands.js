@@ -26,8 +26,11 @@ Cypress.Commands.add('Dados', (mensage) => {
     cy.get('a').should('be.visible').should('have.text', mensage)
 
     cy.get(el.Nomecompleto).type(faker.person.fullName())
+
     cy.get(el.cpf).type(faker.string.numeric(11))
+
     cy.get(el.email).type(faker.internet.exampleEmail())
+    
     cy.get(el.wWhatsapp).type(faker.phone.number('81 9 #### - ####'))
 })
 
