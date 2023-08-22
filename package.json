@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "@shelex/cypress-allure-plugin": "^2.40.0",
+    "allure-commandline": "^2.23.1",
+    "cypress": "12.2.0",
+    "cypress-file-upload": "^5.0.8"
+  }
+}
